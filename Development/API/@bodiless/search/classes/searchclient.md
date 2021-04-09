@@ -33,6 +33,7 @@ Search client wraps search engine for in-browser search features.
 * [loadPreviews](searchclient.md#loadpreviews)
 * [search](searchclient.md#search)
 * [setSearchEngine](searchclient.md#setsearchengine)
+* [suggest](searchclient.md#suggest)
 * [validateIndex](searchclient.md#validateindex)
 
 ## Constructors
@@ -41,7 +42,7 @@ Search client wraps search engine for in-browser search features.
 
 \+ **new SearchClient**(`config?`: [TSearchConf](../globals.md#tsearchconf)): *[SearchClient](searchclient.md)*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:38](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L38)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:51](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L51)*
 
 **Parameters:**
 
@@ -57,7 +58,7 @@ Name | Type |
 
 • **searchEngine**: *[SearchEngineInterface](../interfaces/searchengineinterface.md)*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:38](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L38)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:51](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L51)*
 
 ## Methods
 
@@ -65,7 +66,7 @@ Name | Type |
 
 ▸ **filter**(`qs`: string): *string*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:50](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L50)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:84](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L84)*
 
 **Parameters:**
 
@@ -81,7 +82,7 @@ ___
 
 ▸ **getLocalIndex**(): *[SearchIndex](../globals.md#searchindex) | false*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:62](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L62)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:96](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L96)*
 
 **Returns:** *[SearchIndex](../globals.md#searchindex) | false*
 
@@ -91,7 +92,7 @@ ___
 
 ▸ **loadIndex**(): *Promise‹void›*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:71](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L71)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:105](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L105)*
 
 **Returns:** *Promise‹void›*
 
@@ -101,7 +102,7 @@ ___
 
 ▸ **loadPreviews**(`previews`: object): *void*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:88](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L88)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:122](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L122)*
 
 **Parameters:**
 
@@ -117,7 +118,7 @@ ___
 
 ▸ **search**(`queryString`: string): *[TSearchResults](../globals.md#tsearchresults)*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:44](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L44)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:57](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L57)*
 
 **Parameters:**
 
@@ -133,7 +134,7 @@ ___
 
 ▸ **setSearchEngine**(`searchEngine`: [SearchEngineInterface](../interfaces/searchengineinterface.md)): *void*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:92](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L92)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:126](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L126)*
 
 **Parameters:**
 
@@ -145,11 +146,28 @@ Name | Type |
 
 ___
 
+###  suggest
+
+▸ **suggest**(`queryString`: string, `settings`: [SuggestionSettings](../globals.md#suggestionsettings)): *object[]*
+
+*Defined in [packages/bodiless-search/src/SearchClient.ts:62](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L62)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`queryString` | string | - |
+`settings` | [SuggestionSettings](../globals.md#suggestionsettings) | defaultSuggestSettings |
+
+**Returns:** *object[]*
+
+___
+
 ###  validateIndex
 
 ▸ **validateIndex**(`index`: [SearchIndex](../globals.md#searchindex) | false): *boolean*
 
-*Defined in [packages/bodiless-search/src/SearchClient.ts:52](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-search/src/SearchClient.ts#L52)*
+*Defined in [packages/bodiless-search/src/SearchClient.ts:86](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-search/src/SearchClient.ts#L86)*
 
 **Parameters:**
 

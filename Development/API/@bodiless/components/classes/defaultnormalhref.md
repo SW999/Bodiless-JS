@@ -50,7 +50,7 @@ Normalizer for link hrefs.
 
 \+ **new DefaultNormalHref**(`urlString?`: undefined | string, `options`: [NormalHrefOptions](../globals.md#normalhrefoptions)): *[DefaultNormalHref](defaultnormalhref.md)*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:59](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L59)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:73](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L73)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ Name | Type | Default |
 
 • **options**: *[NormalHrefOptions](../globals.md#normalhrefoptions)*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:55](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L55)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:69](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L69)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **url**: *URL*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:57](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L57)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:71](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L71)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **urlString**: *string*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:59](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L59)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:73](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L73)*
 
 ## Accessors
 
@@ -91,7 +91,7 @@ ___
 
 • **get hasNoPath**(): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:72](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L72)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:86](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L86)*
 
 **Returns:** *boolean*
 
@@ -101,7 +101,7 @@ ___
 
 • **get isExternal**(): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:67](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L67)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:81](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L81)*
 
 **Returns:** *boolean*
 
@@ -111,7 +111,7 @@ ___
 
 • **get isHashOnly**(): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:76](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L76)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:90](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L90)*
 
 **Returns:** *boolean*
 
@@ -121,7 +121,7 @@ ___
 
 • **get isRelative**(): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:80](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L80)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:94](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L94)*
 
 **Returns:** *boolean*
 
@@ -131,7 +131,7 @@ ___
 
 • **get parentPage**(): *undefined | [DefaultNormalHref](defaultnormalhref.md)‹›*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:121](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L121)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:135](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L135)*
 
 **Returns:** *undefined | [DefaultNormalHref](defaultnormalhref.md)‹›*
 
@@ -141,7 +141,7 @@ ___
 
 • **get pathname**(): *string*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:92](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L92)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:106](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L106)*
 
 **Returns:** *string*
 
@@ -151,7 +151,7 @@ ___
 
 • **get relativePrefix**(): *string*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:84](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L84)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:98](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L98)*
 
 **Returns:** *string*
 
@@ -161,7 +161,7 @@ ___
 
 ▸ **canCompare**(`that`: [NormalHref](../interfaces/normalhref.md)): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:107](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L107)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:121](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L121)*
 
 **Parameters:**
 
@@ -177,7 +177,7 @@ ___
 
 ▸ **isChildPageOf**(`that`: [NormalHref](../interfaces/normalhref.md) | string): *boolean*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:128](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L128)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:142](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L142)*
 
 **Parameters:**
 
@@ -193,7 +193,7 @@ ___
 
 ▸ **isSamePage**(`that`: [NormalHref](../interfaces/normalhref.md) | string): *any*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:115](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L115)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:129](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L129)*
 
 **Parameters:**
 
@@ -209,6 +209,6 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:102](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-components/src/Link/NormalHref.ts#L102)*
+*Defined in [packages/bodiless-components/src/Link/NormalHref.ts:116](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-components/src/Link/NormalHref.ts#L116)*
 
 **Returns:** *string*

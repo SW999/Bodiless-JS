@@ -16,7 +16,7 @@
 
 • **ComponentSelector**: = 1
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:19](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L19)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:20](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L20)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **EditFlowContainer**: = 2
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:20](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L20)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:21](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L21)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **StaticFlowContainer**: = 3
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:21](https://github.com/johnsonandjohnson/Bodiless-JS/blob/f7c8004/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L21)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:22](https://github.com/SW999/Bodiless-JS/blob/bea046a1/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L22)*
